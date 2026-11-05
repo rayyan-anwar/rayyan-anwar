@@ -85,7 +85,7 @@ My focus is on designing practical intelligent systems, developing research-orie
 
 ## GITHUB TROPHIES
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=rayyan-anwar&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=rayyan-anwar&theme=matrix)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
