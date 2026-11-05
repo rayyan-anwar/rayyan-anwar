@@ -143,3 +143,8 @@ My focus is on designing practical intelligent systems, developing research-orie
 ### "Build. Research. Innovate. Deploy."
 
 </div>
+
+
+## CONTRIBUTION SNAKE
+
+![Contribution Snake](https://raw.githubusercontent.com/rayyan-anwar/rayyan-anwar/output/github-contribution-grid-snake.svg)
