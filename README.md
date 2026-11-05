@@ -56,6 +56,16 @@ My focus is on designing practical intelligent systems, developing research-orie
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
+## GITHUB ACHIEVEMENTS
+
+<div align="center">
+
+<!-- GITHUB-ACHIEVEMENTS:START -->
+_Achievements will be synced automatically._
+<!-- GITHUB-ACHIEVEMENTS:END -->
+
+</div>
+---
 
 ## GITHUB ANALYTICS
 
