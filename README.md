@@ -193,3 +193,70 @@ An AI platform initiative being developed under the R-Alpha ecosystem, focused o
 <i>Turning ideas into systems and research into practical impact.</i>
 
 </div>
+
+
+
+
+# About Me
+
+I am Rayyan Anwaar, an AI/ML Engineer, Researcher, Professor, and Technology Manager with a background in Computer Science and Artificial Intelligence & Machine Learning.
+
+My work combines:
+- Artificial Intelligence & Machine Learning
+- Generative AI & LLM Systems
+- Data Science & Analytics
+- Explainable AI (XAI)
+- Computer Vision
+- Intelligent Automation
+- Quantum Computing
+- Research & Experimental Systems
+- Technology & Team Management
+
+## Technical Interests
+
+AI/ML • Deep Learning • NLP • LLMs • RAG • Generative AI  
+Computer Vision • Explainable AI • Data Analytics  
+Python • PyTorch • TensorFlow • Scikit-learn  
+FastAPI • Docker • Git • Linux • Cloud Technologies  
+Quantum Computing • AI Research
+
+## Professional Focus
+
+I work at the intersection of technology, research, and management, with a focus on transforming ideas into practical, measurable, and production-oriented systems.
+
+## Current Goals
+
+- Building AI/ML research and production projects
+- Exploring efficient LLM inference and model optimization
+- Developing AI-powered applications and intelligent systems
+- Researching AI + Quantum Computing
+- Building scalable software and automation systems
+- Contributing to open-source projects
+
+## Open to
+
+AI/ML Engineering • Research • Technology Management  
+R&D • Applied AI • AI Product Development • Technical Leadership
+
+## Connect with Me
+
+<p align="center">
+  <a href="https://www.instagram.com/rayyananwar03/">
+    <img src="https://user-images.githubusercontent.com/74038190/235294002-8aafea24-3179-45af-91d9-412ad7ff5359.gif" width="70" alt="Instagram"/>
+  </a>
+  <a href="https://x.com/rayyananwar03">
+    <img src="https://user-images.githubusercontent.com/74038190/235294007-de441046-823e-4eff-89bf-d4df52858b65.gif" width="70" alt="X"/>
+  </a>
+  <a href="https://www.youtube.com/@rayyananwar03">
+    <img src="https://user-images.githubusercontent.com/74038190/235294008-ed8de58b-d4d0-4790-aa81-a39fdc8a1e50.gif" width="70" alt="YouTube"/>
+  </a>
+  <a href="https://www.linkedin.com/in/rayyananwar21">
+    <img src="https://user-images.githubusercontent.com/74038190/235294009-98ca7572-795f-4056-b2c1-ccbde3f2982e.gif" width="70" alt="LinkedIn"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://waveify.onrender.com/api/wave?color=%23007CF0&height=150&speed=10&width=1200&amplitude=80&frequency=4.8&waveType=default" width="100%" alt="Animated Blue Wave"/>
+</p>
+
+> Build. Research. Experiment. Deploy. Improve.
