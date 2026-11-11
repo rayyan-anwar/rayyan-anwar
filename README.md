@@ -139,9 +139,9 @@ My focus is on designing practical intelligent systems, developing research-orie
 - Efficient LLM inference and optimization
 - Explainable and trustworthy AI
 - AI and Quantum Computing
-- Computer Vision and Deep Learning
-- Applied AI research and intelligent automation
-- Predictive analytics and decision-support systems
+- Computer Vision and Deep Learning.
+- Applied AI research and intelligent automation.
+- Predictive analytics and decision-support systems.
 
 ---
 
