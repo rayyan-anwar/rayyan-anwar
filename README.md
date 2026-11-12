@@ -19,7 +19,7 @@
 
 ## ABOUT ME
 
-I am **Rayyan Anwar**, an AI/ML Engineer, Researcher, Professor, and Technology Manager with an academic background in Computer Science and Artificial Intelligence & Machine Learning.
+I am **Rayyan Anwar**, an AI/ML Engineer, Researcher, Professor, and Technology Manager with an academic background in Computer Science and Artificial Intelligence & Machine Learning with Management and Also Best Experience as a Senior Manager .
 
 My academic background includes a **B.Tech in Computer Science and Engineering** and an **M.Tech in Artificial Intelligence and Machine Learning** from Mahatma Gandhi University, Kerala. and -  **Online MBA from European Open University.**
 I work at the intersection of artificial intelligence, research, software engineering, education, and technology management.
