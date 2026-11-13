@@ -74,6 +74,13 @@ My focus is on designing practical intelligent systems, developing research-orie
 ---
 
 ## GITHUB ANALYTICS
+<div align="center">
+
+<img width="49%" src="https://github-stats-extended.vercel.app/api?username=rayyan-anwar&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub statistics"/>
+
+<img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=rayyan-anwar&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Most used languages"/>
+
+</div>
 
 <div align="center">
 
@@ -99,38 +106,38 @@ My focus is on designing practical intelligent systems, developing research-orie
 
 ---
 
+
 ## FEATURED PROJECTS
 
 <div align="center">
 
 <a href="https://github.com/rayyan-anwar/nexus-ai-intelligent-decision-platform">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rayyan-anwar&repo=nexus-ai-intelligent-decision-platform&theme=tokyonight&hide_border=true" alt="NEXUS AI"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=rayyan-anwar&repo=nexus-ai-intelligent-decision-platform&theme=tokyonight&hide_border=true" width="49%" alt="NEXUS AI"/>
 </a>
 <a href="https://github.com/rayyan-anwar/quantum-ml-experiment-platform">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rayyan-anwar&repo=quantum-ml-experiment-platform&theme=tokyonight&hide_border=true" alt="Quantum ML"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=rayyan-anwar&repo=quantum-ml-experiment-platform&theme=tokyonight&hide_border=true" width="49%" alt="Quantum ML"/>
 </a>
 <a href="https://github.com/rayyan-anwar/rag-research-assistant">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rayyan-anwar&repo=rag-research-assistant&theme=tokyonight&hide_border=true" alt="RAG Research Assistant"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=rayyan-anwar&repo=rag-research-assistant&theme=tokyonight&hide_border=true" width="49%" alt="RAG Research Assistant"/>
 </a>
 <a href="https://github.com/rayyan-anwar/enterprise-document-intelligence">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rayyan-anwar&repo=enterprise-document-intelligence&theme=tokyonight&hide_border=true" alt="Enterprise Document Intelligence"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=rayyan-anwar&repo=enterprise-document-intelligence&theme=tokyonight&hide_border=true" width="49%" alt="Enterprise Document Intelligence"/>
 </a>
 <a href="https://github.com/rayyan-anwar/time-series-forecasting-research">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rayyan-anwar&repo=time-series-forecasting-research&theme=tokyonight&hide_border=true" alt="Time Series Forecasting"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=rayyan-anwar&repo=time-series-forecasting-research&theme=tokyonight&hide_border=true" width="49%" alt="Time Series Forecasting"/>
 </a>
 <a href="https://github.com/rayyan-anwar/fraud-monitoring-dashboard">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rayyan-anwar&repo=fraud-monitoring-dashboard&theme=tokyonight&hide_border=true" alt="Fraud Monitoring Dashboard"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=rayyan-anwar&repo=fraud-monitoring-dashboard&theme=tokyonight&hide_border=true" width="49%" alt="Fraud Monitoring Dashboard"/>
 </a>
 <a href="https://github.com/rayyan-anwar/ai-carrer-intelligence">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rayyan-anwar&repo=ai-carrer-intelligence&theme=tokyonight&hide_border=true" alt="AI Career Intelligence"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=rayyan-anwar&repo=ai-carrer-intelligence&theme=tokyonight&hide_border=true" width="49%" alt="AI Career Intelligence"/>
 </a>
 <a href="https://github.com/rayyan-anwar/helminth-egg-detection-yolo11">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rayyan-anwar&repo=helminth-egg-detection-yolo11&theme=tokyonight&hide_border=true" alt="Helminth Egg Detection"/>
+<img src="https://github-stats-extended.vercel.app/api/pin/?username=rayyan-anwar&repo=helminth-egg-detection-yolo11&theme=tokyonight&hide_border=true" width="49%" alt="Helminth Egg Detection"/>
 </a>
 
 </div>
-
----
+----
 
 ## RESEARCH & EMERGING TECHNOLOGIES
 
