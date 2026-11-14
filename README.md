@@ -107,7 +107,7 @@ My focus is on designing practical intelligent systems, developing research-orie
 ---
 
 
-## FEATURED PROJECTS
+## FEATURED PROJECTS.....
 
 <div align="center">
 
