@@ -6,7 +6,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Building+Intelligent+Systems;Researching+Tomorrow;Engineering+Practical+AI+Solutions;Turning+Ideas+Into+Technology" alt="Animated typing introduction"/>
 </a>
 
-**Building Intelligent Systems. Researching Tomorrow.**
+**Building Intelligent Systems. Researching Tomorrow....**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rayyan-anwar.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rayyananwar21/)
