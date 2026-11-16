@@ -35,7 +35,9 @@ My focus is on designing practical intelligent systems, developing research-orie
 - Technology and Operations Management
 - Academic Teaching and Mentoring
 
+![Loading Animation](https://waveify.onrender.com/api/loader?type=spinner&color=%23F97316&size=200&speed=1&width=120&height=280)
 ---
+![Loading Animation](https://waveify.onrender.com/api/loader?type=spinner&color=%23F97316&size=200&speed=1&width=120&height=280)
 
 ## TECHNICAL EXPERTISE
 
