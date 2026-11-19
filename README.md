@@ -76,13 +76,7 @@ My focus is on designing practical intelligent systems, developing research-orie
 ---
 
 ## GITHUB ANALYTICS
-<div align="center">
 
-<img width="49%" src="https://github-stats-extended.vercel.app/api?username=rayyan-anwar&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub statistics"/>
-
-<img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=rayyan-anwar&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Most used languages"/>
-
-</div>
 
 <div align="center">
 
