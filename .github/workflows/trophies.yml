@@ -1,0 +1,31 @@
+name: Update GitHub Achievements
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate GitHub Trophies
+        uses: soulteary/github-profile-trophy-action@v1
+        with:
+          options: 'username=rayyan-anwar&theme=tokyonight&column=4&row=2&margin-w=15&margin-h=15'
+          path: profile/trophy.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+
+      - name: Commit Trophy Image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/trophy.svg
+          git commit -m "Update GitHub achievements" || exit 0
+          git push
+          
