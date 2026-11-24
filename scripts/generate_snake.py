@@ -123,9 +123,12 @@ def generate():
 
         body.append(index)
 
-        # Grow only when the head reaches a green cell.
-        if cell["level"] == 0:
-            body.pop(0)
+        # Grow when the head reaches a green contribution cell.
+if cell["level"] > 0:
+    body.append(index)
+else:
+    body.append(index)
+    body.pop(0)
 
         make_frame()
 
