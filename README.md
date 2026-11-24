@@ -65,12 +65,23 @@ My focus is on designing practical intelligent systems, developing research-orie
 
 ---
 
-## GITHUB ACHIEVEMENTS
+
 ---
+
+## GITHUB ACHIEVEMENTS
+
 <div align="center">
 
-<img src="./profile/trophy.svg" width="100%" alt="GitHub achievement trophies"/>
+<!-- GITHUB-ACHIEVEMENTS:START -->
+
+_Achievements will be synchronized automatically by GitHub Actions._
+
+<!-- GITHUB-ACHIEVEMENTS:END -->
+
 </div>
+
+---
+
 
 ---
 
