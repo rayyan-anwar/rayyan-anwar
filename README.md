@@ -205,13 +205,13 @@ An AI platform initiative being developed under the R-Alpha ecosystem, focused o
 
 ## CONTRIBUTION SNAKE
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/rayyan-anwar/rayyan-anwar/output/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution snake"/>
-
-</div>
-
-<div align="center">
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/rayyan-anwar/rayyan-anwar/output/contribution-snake.gif"
+    alt="Animated GitHub Contribution Snake"
+    width="100%"
+  />
+</p>
 
 <i>Turning ideas into systems and research into practical impact.</i>
 
