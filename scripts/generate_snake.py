@@ -14,29 +14,65 @@ STEP_DELAY = 110
 RESET_DELAY = 2500
 
 def get_contributions():
+   
+from datetime import datetime, timedelta
+from html.parser import HTMLParser
+
+class ContributionParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.cells = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag != "td":
+            return
+
+        attrs = dict(attrs)
+        date = attrs.get("data-date")
+        level = attrs.get("data-level")
+
+        if date and level is not None:
+            self.cells.append({
+                "date": datetime.strptime(date, "%Y-%m-%d").date(),
+                "level": int(level)
+            })
+
+
+def get_contributions():
     url = f"https://github.com/users/{USERNAME}/contributions"
-    response = requests.get(url, timeout=30)
+
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "text/html"
+    }
+
+    response = requests.get(url, headers=headers, timeout=30)
     response.raise_for_status()
 
-    tags = re.findall(r"<rect\b[^>]*>", response.text)
-    cells = []
+    parser = ContributionParser()
+    parser.feed(response.text)
 
-    for tag in tags:
-        attrs = dict(re.findall(
-            r'([\w-]+)="([^"]*)"', tag
-        ))
-
-        if not all(k in attrs for k in ("x", "y", "data-level")):
-            continue
-
-        cells.append({
-            "x": int(float(attrs["x"])),
-            "y": int(float(attrs["y"])),
-            "level": int(attrs["data-level"])
-        })
+    cells = parser.cells
 
     if len(cells) < 300:
-        raise RuntimeError("Contribution grid could not be read.")
+        raise RuntimeError(
+            f"Contribution grid could not be read. "
+            f"HTTP: {response.status_code}, "
+            f"Cells found: {len(cells)}, "
+            f"Response length: {len(response.text)}"
+        )
+
+    cells.sort(key=lambda cell: cell["date"])
+
+    first_date = cells[0]["date"]
+    first_sunday = first_date - timedelta(
+        days=(first_date.weekday() + 1) % 7
+    )
+
+    for cell in cells:
+        days = (cell["date"] - first_sunday).days
+        cell["x"] = (days // 7) * (CELL_SIZE + GAP)
+        cell["y"] = (days % 7) * (CELL_SIZE + GAP)
 
     return cells
 
