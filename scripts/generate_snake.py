@@ -151,7 +151,7 @@ def generate():
 
     make_frame()
 
-        for index in range(3, len(grid)):
+    for index in range(3, len(grid)):
         cell = grid[index]
 
         body.append(index)
