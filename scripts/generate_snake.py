@@ -11,7 +11,7 @@ OUTPUT = "dist/contribution-snake.gif"
 CELL_SIZE = 13
 GAP = 4
 PITCH = CELL_SIZE + GAP
-STEP_DELAY = 110
+STEP_DELAY = 250
 RESET_DELAY = 2500
 FRAME_EVERY = 2
 
@@ -141,9 +141,9 @@ def draw_dashboard(draw, x, y, panel_width, counts, history):
     # Bar chart: one bar for each non-zero contribution level.
     chart_x = x + 4
     chart_y = y + 52
-    bar_width = 42
-    bar_gap = 27
-    chart_height = 72
+    bar_width = 60
+    bar_gap = 35
+    chart_height = 110
     maximum = max(counts.values()) if any(counts.values()) else 1
 
     baseline = chart_y + chart_height
@@ -165,13 +165,13 @@ def draw_dashboard(draw, x, y, panel_width, counts, history):
         draw.text((bx + 12, max(y + 48, top - 16)), str(value), fill=white)
 
     # Line chart: cumulative number of consumed green cells.
-    line_title_y = y + 165
+    line_title_y = y + 195
     draw.text((x, line_title_y), "Total cells consumed", fill=blue)
 
     gx = x + 4
     gy = line_title_y + 28
     graph_width = panel_width - 28
-    graph_height = 68
+    graph_height = 110
 
     draw.line((gx, gy, gx, gy + graph_height), fill=muted)
     draw.line(
@@ -243,7 +243,7 @@ def generate():
     history = []
 
     grid_width = columns * PITCH + 20
-    panel_width = 340
+    panel_width = 500
     panel_gap = 24
     width = grid_width + panel_gap + panel_width + 20
     height = max(rows * PITCH + 24, 370)
