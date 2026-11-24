@@ -1,8 +1,10 @@
 
+
 import re
 import os
 import requests
-from io import BytesIO
+from datetime import datetime, timedelta
+from html.parser import HTMLParser
 from PIL import Image, ImageDraw
 
 USERNAME = "rayyan-anwar"
@@ -13,10 +15,6 @@ GAP = 4
 STEP_DELAY = 110
 RESET_DELAY = 2500
 
-def get_contributions():
-   
-from datetime import datetime, timedelta
-from html.parser import HTMLParser
 
 class ContributionParser(HTMLParser):
     def __init__(self):
@@ -75,7 +73,6 @@ def get_contributions():
         cell["y"] = (days % 7) * (CELL_SIZE + GAP)
 
     return cells
-
 
 def generate():
     cells = get_contributions()
