@@ -73,9 +73,9 @@ My focus is on designing practical intelligent systems, developing research-orie
 <div align="center">
 
 <!-- GITHUB-ACHIEVEMENTS:START -->
-
-_Achievements will be synchronized automatically by GitHub Actions._
-
+<a href="https://github.com/users/rayyan-anwar/achievements/pull-shark"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="72" height="72" alt="Pull Shark" title="Pull Shark - Silver"></a>
+<a href="https://github.com/users/rayyan-anwar/achievements/quickdraw"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="72" height="72" alt="Quickdraw" title="Quickdraw - Default"></a>
+<a href="https://github.com/users/rayyan-anwar/achievements/yolo"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="72" height="72" alt="YOLO" title="YOLO - Default"></a>
 <!-- GITHUB-ACHIEVEMENTS:END -->
 
 </div>
