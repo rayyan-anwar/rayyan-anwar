@@ -7,7 +7,7 @@
 </a>
 <div align="center">
 
-<img src="assets/profile-greeter.gif"
+<img src="assets/Animated Robot Greeting Storyboard.gif"
      width="320"
      alt="3D animated greeting character"/>
 
