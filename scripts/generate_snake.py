@@ -152,18 +152,14 @@ def generate():
     make_frame()
 
     for index in range(3, len(grid)):
-        cell = grid[index]
+    cell = grid[index]
 
-        body.append(index)
+    body.append(index)
 
-        # Grow when the head reaches a green contribution cell.
-        if cell["level"] > 0:
-            body.append(index)
-        else:
-            body.append(index)
-            body.pop(0)
+    if cell["level"] == 0:
+        body.pop(0)
 
-        make_frame()
+    make_frame()
 
     # Hold the completed snake.
     frames.extend([frames[-1]] * 8)
