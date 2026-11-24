@@ -127,28 +127,32 @@ def find_path(start, targets, blocked, columns, rows):
 
 
 def draw_dashboard(draw, x, y, panel_width, counts, history):
+    from PIL import ImageFont
+
     white = "#E6EDF3"
     muted = "#8B949E"
     blue = "#38BDF8"
 
-    draw.text((x, y), "CONTRIBUTION ANALYTICS", fill=white)
-    draw.text(
-        (x, y + 25),
-        "Consumed cells by contribution level",
-        fill="#39D353",
-    )
+    title_font = ImageFont.truetype("DejaVuSans.ttf", 22)
+    label_font = ImageFont.truetype("DejaVuSans.ttf", 17)
 
-    # Bar chart: one bar for each non-zero contribution level.
-    chart_x = x + 4
-    chart_y = y + 52
-    bar_width = 60
+    draw.text((x, y), "CONTRIBUTION ANALYTICS",
+              fill=white, font=title_font)
+
+    draw.text((x, y + 42), "Cells by contribution level",
+              fill="#39D353", font=label_font)
+
+    chart_x = x + 8
+    chart_y = y + 85
+    bar_width = 75
     bar_gap = 35
-    chart_height = 110
-    maximum = max(counts.values()) if any(counts.values()) else 1
+    chart_height = 150
 
+    maximum = max(counts.values()) if any(counts.values()) else 1
     baseline = chart_y + chart_height
+
     chart_right = chart_x + 4 * (bar_width + bar_gap) - bar_gap
-    draw.line((chart_x, baseline, chart_right, baseline), fill=muted)
+    draw.line((chart_x, baseline, chart_right, baseline), fill=muted, width=2)
 
     for level in range(1, 5):
         value = counts[level]
@@ -158,38 +162,41 @@ def draw_dashboard(draw, x, y, panel_width, counts, history):
 
         draw.rounded_rectangle(
             (bx, top, bx + bar_width, baseline),
-            radius=4,
+            radius=7,
             fill=COLORS[level],
         )
-        draw.text((bx + 15, baseline + 6), str(level), fill=white)
-        draw.text((bx + 12, max(y + 48, top - 16)), str(value), fill=white)
 
-    # Line chart: cumulative number of consumed green cells.
-    line_title_y = y + 195
-    draw.text((x, line_title_y), "Total cells consumed", fill=blue)
+        draw.text((bx + 25, baseline + 10), str(level),
+                  fill=white, font=label_font)
 
-    gx = x + 4
-    gy = line_title_y + 28
-    graph_width = panel_width - 28
-    graph_height = 110
+        draw.text((bx + 25, max(y + 65, top - 28)), str(value),
+                  fill=white, font=label_font)
 
-    draw.line((gx, gy, gx, gy + graph_height), fill=muted)
+    line_title_y = y + 285
+
+    draw.text((x, line_title_y), "TOTAL CELLS CONSUMED",
+              fill=blue, font=title_font)
+
+    gx = x + 8
+    gy = line_title_y + 45
+    graph_width = panel_width - 35
+    graph_height = 140
+
+    draw.line((gx, gy, gx, gy + graph_height), fill=muted, width=2)
     draw.line(
         (gx, gy + graph_height, gx + graph_width, gy + graph_height),
         fill=muted,
+        width=2,
     )
 
     if history:
         max_total = max(history) or 1
         sample_count = min(len(history), graph_width)
 
-        if sample_count == 1:
-            sampled = [history[-1]]
-        else:
-            sampled = [
-                history[round(i * (len(history) - 1) / (sample_count - 1))]
-                for i in range(sample_count)
-            ]
+        sampled = [
+            history[round(i * (len(history) - 1) / max(1, sample_count - 1))]
+            for i in range(sample_count)
+        ]
 
         points = []
         for i, value in enumerate(sampled):
@@ -198,12 +205,17 @@ def draw_dashboard(draw, x, y, panel_width, counts, history):
             points.append((px, py))
 
         if len(points) > 1:
-            draw.line(points, fill=blue, width=3)
+            draw.line(points, fill=blue, width=5)
 
         px, py = points[-1]
-        draw.ellipse((px - 3, py - 3, px + 3, py + 3), fill=white)
+        draw.ellipse((px - 6, py - 6, px + 6, py + 6), fill=white)
 
-    draw.text((x, y + 280), f"Consumed: {sum(counts.values())}", fill=white)
+    draw.text(
+        (x, y + 475),
+        f"Consumed: {sum(counts.values())}",
+        fill=white,
+        font=label_font,
+    )
 
 
 def generate():
@@ -246,7 +258,7 @@ def generate():
     panel_width = 500
     panel_gap = 24
     width = grid_width + panel_gap + panel_width + 20
-    height = max(rows * PITCH + 24, 370)
+    height = max(rows * PITCH + 24, 500)
     grid_top = (height - rows * PITCH) // 2
 
     os.makedirs("dist", exist_ok=True)
