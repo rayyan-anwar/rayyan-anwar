@@ -192,7 +192,19 @@ An AI platform initiative being developed under the R-Alpha ecosystem, focused o
 </div>
 
 ---
+<div align="center">
 
+<img src="assets/profile-greeter.gif"
+     width="320"
+     alt="3D animated greeting character"/>
+
+### Hey! Welcome to Rayyan's GitHub Profile!
+
+Explore my research, projects and innovations.
+
+</div>
+
+---
 ## CONTRIBUTION SNAKE
 
 <div align="center">
