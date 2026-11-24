@@ -5,6 +5,19 @@
 <a href="https://readme-typing-svg.demolab.com">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Building+Intelligent+Systems;Researching+Tomorrow;Engineering+Practical+AI+Solutions;Turning+Ideas+Into+Technology" alt="Animated typing introduction"/>
 </a>
+<div align="center">
+
+<img src="assets/profile-greeter.gif"
+     width="320"
+     alt="3D animated greeting character"/>
+
+### Hey! Welcome to Rayyan's GitHub Profile!
+
+Explore my research, projects and innovations.
+
+</div>
+
+---
 
 **Building Intelligent Systems. Researching Tomorrow....**
 
@@ -192,19 +205,7 @@ An AI platform initiative being developed under the R-Alpha ecosystem, focused o
 </div>
 
 ---
-<div align="center">
 
-<img src="assets/profile-greeter.gif"
-     width="320"
-     alt="3D animated greeting character"/>
-
-### Hey! Welcome to Rayyan's GitHub Profile!
-
-Explore my research, projects and innovations.
-
-</div>
-
----
 ## CONTRIBUTION SNAKE
 
 <div align="center">
